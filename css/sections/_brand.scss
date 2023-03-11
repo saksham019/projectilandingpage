@@ -1,0 +1,53 @@
+.brand{
+    margin: 150px 0;
+
+    .text-content{
+
+        h5{
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: $primary-color;
+        }
+    
+        h1{
+            font-weight: 700;
+            margin-top: 20px;
+            padding: 0 250px;
+        }
+    
+        p{
+            margin-top: 20px;
+            color: $grey;
+        }
+    }
+
+    @keyframes scroll{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px * 7));
+        }
+    }
+
+    .slider{
+        
+        height: 100px;
+        margin: 100px auto 50px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+
+        .slide-track{
+            animation: scroll 40s linear infinite;
+            display: flex;
+            width: calc(250px * 14);
+
+            .slide{
+                padding: 0 50px;
+            }
+        }
+    }
+}
+

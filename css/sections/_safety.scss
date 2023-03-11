@@ -1,0 +1,47 @@
+.safety{
+    margin-top: 100px;
+    background-color: $bg-color;
+    padding: 110px 0;
+    h5{
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    h1{
+        font-weight: 700;
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .small-content{
+        border-left: 5px solid #747BE9;
+        padding-left: 30px;
+        margin: 30px 0 65px;
+
+        .bold{
+            font-weight: 700;
+        }
+
+        .bold1{
+            font-weight: 700;
+            margin-top: 30px;
+        }
+
+        .normal{
+            color: $grey;
+            max-width: 60%;
+        }
+    }
+
+    .image{
+        position: relative;
+
+        .img{
+            position: absolute;
+            top: -50px;
+        }
+    }
+
+}

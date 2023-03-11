@@ -1,0 +1,23 @@
+.faq{
+    padding: 150px 0;
+    h5{
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    h1{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    p{
+        margin-top: 20px;
+        color: $grey;
+    }
+
+    .accordion{
+        margin-top: 60px;
+    }
+}

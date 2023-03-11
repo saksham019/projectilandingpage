@@ -1,0 +1,29 @@
+.intro-section{
+    background: $primary-color;
+    color: $white;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+
+    h5{
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    h1{
+        line-height: 1.2;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+
+    .btn-2{
+        margin-top: 40px;
+        margin-bottom: 145px;
+    }
+
+}

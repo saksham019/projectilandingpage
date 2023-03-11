@@ -1,0 +1,40 @@
+.btn{
+    background: $btn-color;
+    color: $white;
+    padding: 11px 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+}
+
+.btn-1{
+    background: $btn-color;
+    color: $white;
+    padding: 11px 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-1:hover{
+    background: transparent;
+    border: 1px solid $white;
+}
+
+.btn-2{
+    background: transparent;
+    color: $white;
+    padding: 11px 20px;
+    border: 1px solid $white;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-bottom: 115px;
+
+    span{
+        margin-left: 80px;
+    }
+}

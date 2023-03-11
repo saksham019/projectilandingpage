@@ -1,0 +1,52 @@
+.offers{
+    background: $bg-color;
+    padding: 150px 0;
+
+    .circle{
+        position: relative;
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        margin-left: 100px;
+        background-color: $primary-color;
+
+        .card1{
+            height: 150px;
+            position: absolute;
+            top: 50px;
+            left: -30px;
+            transform: rotate(60deg);
+        }
+
+        .card2{
+            position: absolute;
+            height: 220px;
+            top: 185px;
+            left: 105px;
+            transform: rotate(100deg);
+        }
+    }
+
+    h5{
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-top: 60px;
+        color: $primary-color;
+    }
+
+    h1{
+        max-width: 90%;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    p{
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .btn{
+        margin-top: 30px;
+    }
+}
